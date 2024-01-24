@@ -8,7 +8,19 @@ package arraydemow24wed;
 public class Student {
     private int sId;
     private String sname;
+    private String Address;
 
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
+
+    
+    
+    
     public Student(int sId, String sname) {
         this.sId = sId;
         this.sname = sname;
